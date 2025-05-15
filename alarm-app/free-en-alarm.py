@@ -11,7 +11,7 @@ import threading
 from gtts import gTTS
 
 WEATHER_API_KEY = "64f71b95aec8db14e72121d04e040220"
-stop_requested = False  # global flag
+stop_requested = False  # global flags
 
 # Speak text
 def speak(text, lang="en", speed=0.98):

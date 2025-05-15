@@ -36,4 +36,4 @@ def learn_new_command():
 # if action == 'play_alarm':
 #     play_alarm()
 # elif action == 'tell_time':
-#     tell_time() ns
+#     tell_time()

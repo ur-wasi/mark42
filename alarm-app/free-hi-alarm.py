@@ -12,7 +12,7 @@ from deep_translator import GoogleTranslator
 import speech_recognition as sr
 
 WEATHER_API_KEY = "64f71b95aec8db14e72121d04e040220"
-stop_requested = False  # Global flag veriable
+stop_requested = False  # Global flag
 
 # Translate text
 def translate_to_language(text, target_lang="hi"):

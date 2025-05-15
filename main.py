@@ -7,7 +7,7 @@ import speech_recognition as sr
 from gtts import gTTS
 import threading
 
-# Set your API keys heree
+# Set your API keys here
 openai.api_key = "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"
 WEATHER_API_KEY = "64f71b95aec8db14e72121d04e040220"
 

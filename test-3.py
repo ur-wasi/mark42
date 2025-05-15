@@ -184,7 +184,7 @@ def main_loop():
 
 if __name__ == "__main__":
     time.sleep(5)
-    play_intro()  # Play intro music
+    play_intro()  # Play intro musicc
     time.sleep(5)
     speak("Jarvis is at your service, sir!")
     main_loop()

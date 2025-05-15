@@ -1,4 +1,4 @@
-# learning_module.py sample f
+# learning_module.py sample
 
 import json
 import os

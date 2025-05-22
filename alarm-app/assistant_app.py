@@ -11,7 +11,7 @@ from setuptools import Command
 
 app = Flask(__name__)
 
-WEATHER_API_KEY = "API_KEY"
+WEATHER_API_KEY = "64f71b95aec8db14e72121d04e040220"
 
 def clean_news_text(text):
     return re.sub(r'\s?(- \d+|quote|: source:.*|[\(\[].*?[\)\]])\s?', '', text, flags=re.IGNORECASE).strip()

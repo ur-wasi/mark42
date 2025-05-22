@@ -10,9 +10,9 @@ import time
 from google.cloud import texttospeech
 
 # Set API keys
-openai.api_key = "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"
-WEATHER_API_KEY = "64f71b95aec8db14e72121d04e040220"
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "mark42-457319-77579cd6f7ff.json"
+openai.api_key = "API_KEY"
+WEATHER_API_KEY = "API_KEY"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "API_KEY"
 
 recognizer = sr.Recognizer()
 

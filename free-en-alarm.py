@@ -10,7 +10,7 @@ import speech_recognition as sr
 import threading
 from gtts import gTTS
 
-WEATHER_API_KEY = "API_KEY"
+WEATHER_API_KEY = "64f71b95aec8db14e72121d04e040220"
 stop_requested = False  # global flag
 
 # Speak text
